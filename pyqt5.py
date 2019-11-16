@@ -1,13 +1,13 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt5.QtWidgets import QApplication, QMainWindow
+import MainWindow
 
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-
-    w = QWidget()
-    w.resize(250, 150)
-    w.move(300, 300)
-    w.setWindowTitle('Simple')
-    w.show()
-
-    sys.exit(app.exec_())
+class MyMainWindow(QMainWindow, MainWindow):
+        def __init__(self, parent=None):
+            super(MyMainWindow, self).__init__(parent)
+            self.setupUi(self)
+    if __name__ == '__main__':
+        app = QApplication(sys.argv)
+        w = MyMainWindow()
+        w.show()
+        sys.exit(app.exec_())
