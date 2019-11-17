@@ -16,7 +16,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/qt_stm32" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1TI1SwxCmuvVXi3qGo8u1lvUBcM" />
@@ -37,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainWindow">
+  <component name="RunManager" selected="Python.pyqt5">
     <configuration name="MainWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qt_stm32" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MainWindow" />
         <item itemvalue="Python.pyqt5" />
+        <item itemvalue="Python.MainWindow" />
       </list>
     </recent_temporary>
   </component>
