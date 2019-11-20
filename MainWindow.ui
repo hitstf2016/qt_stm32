@@ -27,28 +27,28 @@
      <item>
       <widget class="QPushButton" name="pushButton_5">
        <property name="text">
-        <string>PushButton</string>
+        <string>gyr</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_4">
        <property name="text">
-        <string>PushButton</string>
+        <string>acc</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_10">
        <property name="text">
-        <string>PushButton</string>
+        <string>als</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_6">
        <property name="text">
-        <string>PushButton</string>
+        <string>prx</string>
        </property>
       </widget>
      </item>
@@ -67,28 +67,28 @@
      <item>
       <widget class="QPushButton" name="pushButton_7">
        <property name="text">
-        <string>PushButton</string>
+        <string>temp</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_8">
        <property name="text">
-        <string>PushButton</string>
+        <string>ori</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_11">
        <property name="text">
-        <string>PushButton</string>
+        <string>mag</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_9">
        <property name="text">
-        <string>PushButton</string>
+        <string>bar</string>
        </property>
       </widget>
      </item>
@@ -107,21 +107,21 @@
      <item>
       <widget class="QPushButton" name="pushButton_2">
        <property name="text">
-        <string>PushButton</string>
+        <string>connect</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton">
        <property name="text">
-        <string>PushButton</string>
+        <string>disconnect</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_3">
        <property name="text">
-        <string>PushButton</string>
+        <string>scan board</string>
        </property>
       </widget>
      </item>
@@ -229,6 +229,16 @@
     </property>
     <property name="text">
      <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>50</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
     </property>
    </widget>
   </widget>
