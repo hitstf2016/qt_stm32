@@ -43,7 +43,40 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
 
     def scan_board(self,serial_usb,thread1):
         serial_usb.write("acc_info")
-        thread1.
+        thread1.sleep(1)
+        acc_info=serial_usb.read()
+        print("Acc"+acc_info)
+
+        serial_usb.write("acc_info")
+        thread1.sleep(1)
+        Mag_info = serial_usb.read()
+        print("Mag" + M_info)
+
+        serial_usb.write("acc_info")
+        thread1.sleep(1)
+        acc_info = serial_usb.read()
+        print("acc" + acc_info)
+
+        serial_usb.write("acc_info")
+        thread1.sleep(1)
+        acc_info = serial_usb.read
+        print("acc" + acc_info)
+
+        serial_usb.write("acc_info")
+        thread1.sleep(1)
+        acc_info = serial_usb.read
+        print("acc" + acc_info)
+
+        serial_usb.write("acc_info")
+        thread1.sleep(1)
+        acc_info = serial_usb.read
+        print("acc" + acc_info)
+
+        serial_usb.write("acc_info")
+        thread1.sleep(1)
+        acc_info = serial_usb.read
+        print("acc" + acc_info)
+
 
 if __name__== "__main__":
     app = QApplication(sys.argv)
